@@ -14,6 +14,19 @@ insertSlides();
 Reveal.initialize({
     width: '100%',
     height: '100%',
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    transition: 'fade', // default/cube/page/concave/zoom/linear/fade/none
+    backgroundTransition: 'fade',
+    rollingLinks: true,
+    slideNumber: true,
+    mouseWheel: true,
+    margin: 0,
+    markdown: {
+        smartypants: true
+    },
     dependencies: [
         // Cross-browser shim that fully implements classList
         {
